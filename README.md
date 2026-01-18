@@ -27,6 +27,9 @@
 если метод помечен @Invoke → вызвать его через invoke().
 Обработать возможные ошибки вызова.
 
+<img width="356" height="100" alt="image" src="https://github.com/user-attachments/assets/1a630fdc-57de-402c-b8a1-3d6d960d7ebc" />
+
+
 ## Задача 2
 ### Текст задачи
 @Default.
@@ -47,6 +50,9 @@
 Проверить, имеет ли класс аннотацию @Default.
 Если да → получить значение value() и вывести имя класса.
 Если нет → вывести сообщение об отсутствии аннотации.
+
+<img width="432" height="64" alt="image" src="https://github.com/user-attachments/assets/a38e41db-0bb6-46f7-b8c6-bb840e66ef70" />
+
 
 ## Задача 3
 ### Текст задачи
@@ -79,6 +85,9 @@
 Сформировать строку вида:
 ClassName{field=value; ...}
 
+<img width="389" height="76" alt="image" src="https://github.com/user-attachments/assets/e667403c-f0c3-45d9-8abe-12873c641179" />
+
+
 ## Задача 4
 ### Текст задачи
 @Validate.
@@ -98,7 +107,10 @@ ClassName{field=value; ...}
 3. Создать обработчик
 Проверить наличие аннотации у класса.
 Если аннотация есть → получить массив классов и вывести их имена.
-Если нет → вывести сообщение об отсутствии аннотации. 
+Если нет → вывести сообщение об отсутствии аннотации.
+
+<img width="404" height="119" alt="image" src="https://github.com/user-attachments/assets/a3ac52ed-5cc0-4260-850e-aba45054c48a" />
+
 
 ## Задача 5
 ### Текст задачи
@@ -122,6 +134,9 @@ second — int
 Проверить, есть ли у класса @Two.
 Если есть → получить свойства first и second и вывести их.
 Если нет → вывести сообщение.
+
+<img width="267" height="104" alt="image" src="https://github.com/user-attachments/assets/31c9bf72-02b8-4156-a0d4-12f8bb678aa1" />
+
 
 ## Задача 6
 ### Текст задачи
@@ -147,6 +162,9 @@ second — int
 Если массив пуст → вывести сообщение «список пуст».
 Иначе → вывести каждую область.
 
+<img width="331" height="113" alt="image" src="https://github.com/user-attachments/assets/f7253796-e6b8-44f1-93c6-7d0514cc94dd" />
+
+
 # Задание 2
 ## Задача 1
 ### Текст задачи
@@ -164,6 +182,9 @@ second — int
 Убедиться, что в строке присутствуют поля с Mode.YES и поля без аннотации.
 Убедиться, что поле с Mode.NO отсутствует.
 Использовать assertTrue() и assertFalse().
+
+<img width="926" height="291" alt="image" src="https://github.com/user-attachments/assets/4f2f0167-2709-4f85-8a81-2392076ab0a9" />
+
 
 ## Задача 5
 ### Текст задачи
@@ -185,5 +206,9 @@ second — int
 4. Тест логики (Functional)
 Пустой список: Создаем временный класс с @Cache({}) и проверяем, что процессор выдал сообщение «Список кешируемых областей пуст».
 Несколько областей: Запускаем процессор для CacheExample и проверяем наличие всех трех строк в итоговом выводе
+
+<img width="968" height="279" alt="image" src="https://github.com/user-attachments/assets/8b00901f-8317-446b-a313-03215ca26677" />
+
+
 .[lab6.md](https://github.com/user-attachments/files/24697853/lab6.md)
 .
